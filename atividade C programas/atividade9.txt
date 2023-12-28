@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+int main()
+{
+    int numero,numero2,arm,arm2,arm3,arm4,arm5,arm6,arm7,arm8,arm9,arm10,arm11,arm12,arm13,arm14,arm15;
+    printf("Digite dois numeros para assim ser feito a serie de fibonnaci com os 15 numeros em sequencia\n");
+    scanf ("%d",&numero);
+    scanf("%d",&numero2);
+    arm=numero+numero2;
+    arm2=numero+numero2+ 3;
+    arm3=numero+numero2+ 5;
+    arm4=numero+numero2+ 7;
+    arm5=numero=numero2+ 9;
+    arm6=numero+numero2+ 11;
+    arm7=numero+numero2+ 13;
+    arm8=numero+numero2+ 14;
+    arm9=numero+numero2+ 16;
+    arm10=numero+numero2+ 18;
+    arm11=numero+numero2+ 20;
+    arm12=numero+numero2+ 22;
+    arm13=numero+numero2+ 24;
+    arm14=numero+numero2+ 26;
+    arm15=numero+numero2+ 28;
+    
+    printf("Resultado \n %d",arm);
+      printf("Resultado \n %d",arm2);
+        printf("Resultado \n %d",arm3);
+          printf("Resultado \n %d",arm4);
+            printf("Resultado \n %d",arm5);
+              printf("Resultado \n %d",arm6);
+                printf("Resultado \n %d",arm7);
+                  printf("Resultado \n %d",arm8);
+                    printf("Resultado \n %d",arm9);
+                      printf("Resultado \n %d",arm10);
+                       printf("Resultado \n %d",arm11);
+                        printf("Resultado \n %d",arm12);
+                         printf("Resultado \n %d",arm13);
+                          printf("Resultado \n %d",arm14);
+                           printf("Resultado \n %d",arm15);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    return 0;
+}

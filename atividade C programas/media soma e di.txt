@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int numero1,numero2,numero3,med=3,armaze,armaze2,armaze3;
+    
+    
+    printf("\n Dgite 3 valores com numeros inteiros para termos a media da soma \n");
+    
+    scanf("%d",&numero1);
+    
+    scanf("%d",&numero2);
+    
+    scanf("%d",&numero3);
+    
+    armaze=(numero1+numero2+numero3)/med;
+    
+
+    printf("\n A media da soma dos 3 valores foi : %d  \n",armaze);
+
+    return 0;
+}

@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+void calcularCedulas(int valor) {
+    int cedulas100, cedulas50, cedulas20, cedulas10, cedulas5, cedulas2, cedulas1;
+
+    cedulas100 = valor / 100;
+    valor %= 100;
+
+    cedulas50 = valor / 50;
+    valor %= 50;
+
+    cedulas20 = valor / 20;
+    valor %= 20;
+
+    cedulas10 = valor / 10;
+    valor %= 10;
+
+    cedulas5 = valor / 5;
+    valor %= 5;
+
+    cedulas2 = valor / 2;
+    valor %= 2;
+
+    cedulas1 = valor;
+
+    printf("Cedula(s)de 100: %d\n", cedulas100);
+    printf("Cedula(s) de 50: %d\n", cedulas50);
+    printf("Cedula(s) de 20: %d\n", cedulas20);
+    printf("Cedula(s) de 10: %d\n", cedulas10);
+    printf("Cedula(s) de 5: %d\n", cedulas5);
+    printf("Cedula(s) de 2: %d\n", cedulas2);
+    printf("Cedula(s) de 1: %d\n", cedulas1);
+}
+
+int main() {
+    int valor;
+
+    printf("Informe o valor em reais: ");
+    scanf("%d", &valor);
+
+    calcularCedulas(valor);
+
+    return 0;
+}

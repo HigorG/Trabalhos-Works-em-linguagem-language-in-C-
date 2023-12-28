@@ -1,0 +1,102 @@
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    float numero,numero2,numero3,maior,medio,menor;
+    printf("Escreva trés numeros para Monstramos qual O Maior , O medio e o Menor");
+    scanf("%f",&numero);
+      scanf("%f",&numero2);
+        scanf("%f",&numero3);
+        if((numero>numero2)&&(numero>numero3)){
+            maior=numero;
+            if(numero2>numero3){
+                medio=numero2;
+                menor=numero3;
+                
+                
+            }
+            
+            
+            
+            
+            
+        }
+        
+        if((numero2>numero)&&(numero2>numero3)){
+            maior=numero2;
+            if(numero3>numero){
+                medio=numero3;
+                menor=numero;
+                
+                
+                
+            }
+            
+            
+            
+        }
+        
+        if((numero3>numero)&&(numero3>numero2)){
+            maior=numero3;
+            if(numero2<numero){
+                medio=numero;
+                menor=numero2;
+                
+                
+                
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+            
+        }
+        
+        if((numero>numero3)&&(numero>numero2)){
+            maior=numero;
+            if(numero3>numero2){
+                medio=numero3;
+                menor=numero2;
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+        }
+        
+        if((numero3>numero2)&&(numero3>numero)){
+            maior=numero3;
+            if(numero2>numero){
+                medio=numero2;
+                menor=numero;
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+            
+        }printf("O maior numero é %f",maior);
+        printf("O  numero medio é %f",medio);
+        printf("O menor numero é %f",menor);
+
+    return 0;
+}

@@ -1,0 +1,29 @@
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    int segundo,hora,minuto,tempo=60,armazen,armazen2,armazen3;
+    
+    printf("\n Digite os segundos para obter os minutos do jogo que está assistindo \n");
+   
+    scanf("%d",&segundo);
+    
+    armazen=segundo/tempo;
+    
+    printf("\n CALCULANDO Horas e Segundos ...... \n");
+   
+    armazen2=armazen/tempo;
+    
+    armazen3=armazen2/tempo;
+    
+    printf( " \nHora(s) %d \n ",armazen2);
+    
+    printf(" \nMinutos %d \n",armazen);
+    
+    printf(" \nSegundos %d \n",armazen3);
+   
+   
+    return 0;
+}

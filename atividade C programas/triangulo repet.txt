@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int numero,numero1,numero2,triangulo;
+    char para='S';
+    while (para!= 'N'){
+        printf("\nIniciar ?, digite S para Sim e N para Não\n");
+        scanf("%c",&para);
+        if(para=='S') {
+            printf("\nDigite um três numeros de 1 a 4 para determinar se esses numeros formam um triangulo, equilatero ,escaleno \n");
+            scanf("%d",&numero);
+             scanf("%d",&numero);
+              scanf("%d",&numero);
+              if(numero==1,1,1,3,3,3,2,2,2,4,4,4) {
+                printf("\n O triangulo é equilatero : %d \n",numero);
+                if(numero==4,4,3,3,3,4,1,2,2,2,3,3,3,4,4){
+                    printf("\n O numero é isoceles: %d   \n",numero);
+                
+                    
+                }
+                if(numero!=4,4,3,3,3,4,1,2,2,2,3,3,3,4,4,1,1,1,3,3,3,2,2,2,4,4,4){
+                   printf("\n O numero é escaleno: %d   \n",numero);  
+                
+                    
+                }
+            }
+            
+          
+            
+        }
+        
+    }
+}    
+    

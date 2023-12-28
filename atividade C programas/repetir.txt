@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int numero;
+    char para='S';
+    while (para!= 'N'){s
+        printf("\nIniciar ?, digite S para Sim e N para Não\n");
+        scanf("%c",&para);
+        if(para=='S') {
+            printf("\nDigite um numero de 0 a 8 para determinar se ele é par ou não par\n");
+            scanf("%d",&numero);
+            if(numero==0,1,2,4,8) {
+                printf("\n O numero é par : %d \n",numero);
+                if(numero!=0,1,2,4,8){
+                    printf("\n O numero é impar: %d   \n",numero);
+                
+                    
+                }
+                
+            }
+            
+          
+            
+        }
+        
+    }
+    
